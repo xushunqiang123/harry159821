@@ -5,7 +5,7 @@ import os
 import socket
 
 def main():
-    ip = socket.gethostbyname(socket.gethostname())
+    # ip = socket.gethostbyname(socket.gethostname())
 
     # Instantiate a dummy authorizer for managing 'virtual' users
     authorizer = DummyAuthorizer()
